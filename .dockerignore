@@ -1,0 +1,25 @@
+# Build artifacts (the big one!)
+target/
+
+# Version control
+.git/
+.gitignore
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment & secrets
+.env
+.env.*
+fly.toml
+
+# Documentation (not needed in image)
+*.md
+LICENSE
+
+# Development tools
+.dockerignore
+Dockerfile
